@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: AWS_sample_production
-  username: AWS_sample
-  password: <%= ENV['AWS_SAMPLE_DATABASE_PASSWORD'] %>
+  database: achieve_production
+  username: achieve
+  password: <%= ENV['ACHIEVE_DATABASE_PASSWORD'] %>
